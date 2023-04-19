@@ -16,6 +16,8 @@
 		8320277C29EF97A7000A3F8A /* food_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8320277B29EF97A7000A3F8A /* food_appTests.swift */; };
 		8320278629EF97A7000A3F8A /* food_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8320278529EF97A7000A3F8A /* food_appUITests.swift */; };
 		8320278829EF97A7000A3F8A /* food_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8320278729EF97A7000A3F8A /* food_appUITestsLaunchTests.swift */; };
+		8320279A29EF9A7F000A3F8A /* AuthencationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8320279929EF9A7F000A3F8A /* AuthencationViewController.swift */; };
+		8320279D29EF9AE7000A3F8A /* AuthencationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8320279C29EF9AE7000A3F8A /* AuthencationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8320278129EF97A7000A3F8A /* food_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = food_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8320278529EF97A7000A3F8A /* food_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food_appUITests.swift; sourceTree = "<group>"; };
 		8320278729EF97A7000A3F8A /* food_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8320279929EF9A7F000A3F8A /* AuthencationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthencationViewController.swift; sourceTree = "<group>"; };
+		8320279C29EF9AE7000A3F8A /* AuthencationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthencationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,7 @@
 		8320279429EF97DE000A3F8A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8320279829EF9A5B000A3F8A /* Authencation */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 		8320279529EF97E8000A3F8A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				8320279B29EF9ABC000A3F8A /* Authencation */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -157,6 +163,22 @@
 			children = (
 			);
 			path = Api;
+			sourceTree = "<group>";
+		};
+		8320279829EF9A5B000A3F8A /* Authencation */ = {
+			isa = PBXGroup;
+			children = (
+				8320279929EF9A7F000A3F8A /* AuthencationViewController.swift */,
+			);
+			path = Authencation;
+			sourceTree = "<group>";
+		};
+		8320279B29EF9ABC000A3F8A /* Authencation */ = {
+			isa = PBXGroup;
+			children = (
+				8320279C29EF9AE7000A3F8A /* AuthencationViewModel.swift */,
+			);
+			path = Authencation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,8 +312,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8320279D29EF9AE7000A3F8A /* AuthencationViewModel.swift in Sources */,
 				8320276929EF97A5000A3F8A /* ViewController.swift in Sources */,
 				8320276529EF97A5000A3F8A /* AppDelegate.swift in Sources */,
+				8320279A29EF9A7F000A3F8A /* AuthencationViewController.swift in Sources */,
 				8320276729EF97A5000A3F8A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
