@@ -1,5 +1,5 @@
 //
-//  AuthencationViewController.swift
+//  asViewController.swift
 //  food_app
 //
 //  Created by Ominext on 4/19/23.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AuthencationViewController: UIViewController {
+class asViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
